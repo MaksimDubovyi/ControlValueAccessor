@@ -1,0 +1,5 @@
+     <select class="form-select" aria-label="Select currency to" [(ngModel)]="curreCurrencyServiceServicencyService.selectedLeftCurrency" >
+        <option value="">Оберіть валюту</option>
+        <option *ngFor="let currency of curreCurrencyServiceServicencyService.Currency" [ngValue]="currency.cc">{{ currency.cc }}</option>
+      </select>
+

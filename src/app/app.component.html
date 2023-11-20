@@ -1,0 +1,33 @@
+<div class="App">
+<app-header></app-header>
+
+ <form [formGroup]="curreCurrencyServiceServicencyService.formGroup">
+
+  <div class="mainBlock">
+
+      <div class="formBlock">
+
+        <app-left-input
+        [formControlName]="'leftInput'" >
+        </app-left-input>
+
+         <app-left-select></app-left-select>
+
+       </div>
+
+
+       <div class="formBlock">
+
+         <app-right-input
+            [formControlName]="'rightInput'" >
+        </app-right-input>
+         <app-right-select ></app-right-select>
+      </div>
+
+  </div>
+  </form>
+
+  <p class="valid">{{valid}}</p>
+
+</div>
+

@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+color: black;
+
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.mainBlock{
+
+  border: 1px solid black;
+ border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  margin-top: 5%;
+  margin-left: 25%;
+  width: 50%;
+  padding: 1%;
+}
+
+
+.formBlock{
+  width: 50%;
+  margin-left: 2%;
+  margin-right: 2%;
+
+}
+.valid
+{
+
+  font-size: 25px;
+  font-weight: 500;
+  color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .mainBlock{
+    margin-left: 10%;
+    width: 80%;
+
+  }
+}
